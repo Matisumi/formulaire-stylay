@@ -1,0 +1,188 @@
+/* line 1, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 9, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+#error_explanation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 150px;
+  background-color: red;
+  opacity: 0.9;
+  color: #FFF;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* line 24, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+#register {
+  display: flex;
+  background-color: gainsboro;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images3.alphacoders.com/112/thumb-1920-112487.jpg");
+}
+
+/* line 39, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.corpus {
+  display: flex;
+  height: 395px;
+  width: 628px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* line 49, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.left {
+  display: flex;
+  background-color: deepskyblue;
+  width: 278px;
+  height: 395px;
+  border-radius: 10px 0px 0px 10px;
+  opacity: 0.95;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* line 64, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.right {
+  display: flex;
+  background-color: white;
+  width: 350px;
+  height: 395px;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* line 79, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.field_with_errors + br {
+  display: none;
+}
+
+/* line 85, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.fields_with_errors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 93, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.fields {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 103, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.fields input {
+  height: 3em;
+  width: 25em;
+}
+
+/* line 112, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+#user_email {
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-radius: 5px 5px 0px 0px;
+  border-bottom: none;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/dortmund/Dortmund-32x32/email.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* line 126, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+#user_password {
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/dortmund/Dortmund-32x32/lock.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* line 138, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+#user_password_confirmation {
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-radius: 0px 0px 5px 5px;
+  border-top: none;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/dortmund/Dortmund-32x32/lock.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/* line 154, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+#button {
+  background-color: deepskyblue;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+  align-self: bottom;
+  border-radius: 5px;
+  border: none;
+}
+
+/* line 166, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+#button:active {
+  text-decoration: none;
+  color: white;
+  background-color: lightblue;
+}
+
+/* line 172, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.signin {
+  display: flex;
+  width: 350px;
+  height: 70px;
+  background-color: lightsteelblue;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 10px 0px;
+  border: none;
+}
+
+/* line 186, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.signin:active {
+  background-color: lightslategrey;
+}
+
+/* line 190, /Users/matisumi/Documents/THP/Week7/Day1/formulaire-stylay/app/assets/stylesheets/custom.scss */
+.signin a {
+  text-decoration: none;
+  color: white;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
