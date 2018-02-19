@@ -22,18 +22,18 @@
            <%= devise_error_messages! %>
 
       
-           <%= f.email_field :email, autocomplete: "email", placeholder: " Email" %>
+           <%= f.email_field :email, autocomplete: "email", placeholder: "Email" %>
            <br />
-           <%= f.password_field :password, autocomplete: "off", placeholder: " #{@minimum_password_length} characters minimum" %>
+           <%= f.password_field :password, autocomplete: "off", placeholder: "#{@minimum_password_length} characters minimum" %>
    
 
   
            <br />
-           <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: " Confirmation" %>
+           <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: "Confirmation" %>
 
           
 
-       <div >
+       <div>
          <%= f.submit "Sign up", id:"button"%>
        </div>
           <% end %>

@@ -126,6 +126,12 @@ html, body{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+
+	div{
+		display: flex;
+		justify-content: center;
+	}
+
 }
 
 .fields input{
@@ -139,6 +145,8 @@ html, body{
 
 #user_email{
 
+	padding-right: 10px;
+	padding-left: 10px;
 	border-style: solid;
 	border-color: lightgrey;
 	border-width: 1px;
@@ -152,6 +160,9 @@ html, body{
 
 
 #user_password{
+
+	padding-right: 10px;
+	padding-left: 10px;
 	border-style: solid;
 	border-color: lightgrey;
 	border-width: 1px;
@@ -164,7 +175,9 @@ html, body{
 
 
 #user_password_confirmation{
-
+	
+	padding-right: 10px;
+	padding-left: 10px;
 	border-style: solid;
 	border-color: lightgrey;
 	border-width: 1px;
